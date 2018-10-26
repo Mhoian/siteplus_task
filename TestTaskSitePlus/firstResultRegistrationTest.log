@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220132</millis>
+  <sequence>1</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: first_name</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220335</millis>
+  <sequence>2</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: last_name</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220491</millis>
+  <sequence>3</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: address</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220601</millis>
+  <sequence>4</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: city</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220663</millis>
+  <sequence>5</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: post_code</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220726</millis>
+  <sequence>6</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: state</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220819</millis>
+  <sequence>7</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: phone</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:20</date>
+  <millis>1540507220913</millis>
+  <sequence>8</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: email</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:21</date>
+  <millis>1540507221022</millis>
+  <sequence>9</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: username</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:21</date>
+  <millis>1540507221132</millis>
+  <sequence>10</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.name: password</message>
+</record>
+<record>
+  <date>2018-10-26T01:40:21</date>
+  <millis>1540507221210</millis>
+  <sequence>11</sequence>
+  <logger>com.automation.driver.Driver</logger>
+  <level>INFO</level>
+  <class>com.automation.utils.Log</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Searching element: By.cssSelector: input.textstyle1:nth-child(1)</message>
+</record>
+</log>
