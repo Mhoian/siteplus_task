@@ -27,6 +27,7 @@ public class Driver {
     public WebDriver webDriver;
     public Log log;
     boolean screenshotEnabled = false;
+    public WebElement errorText;
 
     public Driver(String fileName) {
 
@@ -89,7 +90,7 @@ public class Driver {
     }
 
     public WebElement find(By selector) {
-        log.log(Level.ALL, "Searching element: " + selector.toString());
+        log.log(Level.INFO, "Searching element: " + selector.toString());
         WebElement element = fluentWait(100, 1500, selector);
         return element;
     }
@@ -114,5 +115,15 @@ public class Driver {
 
     public void close(){
         webDriver.quit();
+    }
+
+    public boolean safeAlertDissmiss() {
+        try {
+            webDriver.switchTo().alert().dismiss();
+            return true;
+        } catch (NoAlertPresentException e) {
+            // ничего не делаем, алерта и так нет
+        }
+        return false;
     }
 }
